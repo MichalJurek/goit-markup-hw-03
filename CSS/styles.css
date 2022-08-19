@@ -1,0 +1,80 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: var(--MainBlackColor);
+    list-style: none;
+}
+
+:root {
+    --StudioColor: rgba(33, 150, 243, 1);
+    --MainBlackColor: rgba(0, 0, 0, 1);
+    --MainWhiteColor: rgba(255, 255, 255, 1);
+    --MainGreyColor: rgba(117, 117, 117, 1);
+    --BacgroundGafitColor: rgba(47, 48, 58, 1);
+    --BacgroundLightGafitColor: rgba(245, 244, 250, 1);
+    --FontLogoRaleway: font-family: "Raleway";
+    --FontDefaultRoboto: font-family: "Roboto";
+}
+
+.header-logo-blue {
+    font-family: var(--FontLogoRaleway);
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--StudioColor);
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.header-logo-right {
+    font-family: var(--FontDefaultRoboto);
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--MainBlackColor);
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.header-agency, .header-portfolio, .header-contact {
+    font-family: var(--FontDefaultRoboto);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--MainBlackColor);
+    text-decoration: none;
+}
+
+.header-links-contact {
+    font-family: var(--FontDefault);
+    font-style: normal;
+    font-size: 14px;
+    color: var(--MainGreyColor);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.main-button-place {
+    background-color: var(--BacgroundGafitColor);
+    color: var(--MainWhiteColor);
+    font-family: var(--FontDefaultRoboto);
+    font-style: normal;
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.main-button {
+    font-family: var(--FontDefaultRoboto);
+    color: var(--MainWhiteColor);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    background-color: var(--StudioColor);
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-transform: none;
+}

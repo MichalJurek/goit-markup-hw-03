@@ -1,10 +1,3 @@
-body {
-    font-family: "Raleway", sans-serif;
-    font-family: "Roboto", sans-serif;
-    color: var(--MainBlackColor);
-    list-style: none;
-}
-
 :root {
     --StudioColor: rgba(33, 150, 243, 1);
     --MainBlackColor: rgba(0, 0, 0, 1);
@@ -15,7 +8,12 @@ body {
     --FontLogoRaleway: font-family: "Raleway";
     --FontDefaultRoboto: font-family: "Roboto";
 }
-
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: var(--MainBlackColor);
+    list-style: none;
+}
 .header-logo-blue {
     font-family: var(--FontLogoRaleway);
     font-style: normal;
@@ -36,7 +34,9 @@ body {
     text-decoration: none;
 }
 
-.header-agency, .header-portfolio, .header-contact {
+.header-agency,
+.header-portfolio,
+.header-contact {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
     font-size: 14px;
@@ -57,18 +57,15 @@ body {
 .main-button-place {
     background-color: var(--BacgroundGafitColor);
     color: var(--MainWhiteColor);
-    font-family: var(--FontDefaultRoboto);
-    font-style: normal;
     font-size: 44px;
     font-weight: 900;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
 .main-button {
-    font-family: var(--FontDefaultRoboto);
     color: var(--MainWhiteColor);
-    font-style: normal;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.06em;
@@ -77,4 +74,38 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     text-transform: none;
+}
+
+.lorem-h-four {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.lorem-four {
+    color: var(--MainGreyColor);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.lorem-list {
+    list-style: none;
+}
+
+.what-we-do {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team {
+    background-color: var(--BacgroundLightGafitColor);
+}
+
+.team-name {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 00.03em;
 }

@@ -5,8 +5,8 @@
     --MainGreyColor: rgba(117, 117, 117, 1);
     --BacgroundGafitColor: rgba(47, 48, 58, 1);
     --BacgroundLightGafitColor: rgba(245, 244, 250, 1);
-    --FontLogoRaleway: font-family: "Raleway";
-    --FontDefaultRoboto: font-family: "Roboto";
+    --FontLogoRaleway: font-family: "Raleway", sans-serif;
+    --FontDefaultRoboto: font-family: "Roboto", sans-serif;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -18,6 +18,7 @@ body {
     font-family: var(--FontLogoRaleway);
     font-style: normal;
     font-size: 26px;
+    line-height: 1.19;
     font-weight: 700;
     color: var(--StudioColor);
     letter-spacing: 0.03em;
@@ -28,6 +29,7 @@ body {
     font-family: var(--FontLogoRaleway);
     font-style: normal;
     font-size: 26px;
+    line-height: 1.19;
     font-weight: 700;
     color: var(--MainBlackColor);
     letter-spacing: 0.03em;
@@ -41,6 +43,7 @@ body {
     font-style: normal;
     font-size: 14px;
     font-weight: 500;
+    line-height: 1.14;
     color: var(--MainBlackColor);
     text-decoration: none;
 }
@@ -49,6 +52,7 @@ body {
     font-family: var(--FontDefault);
     font-style: normal;
     font-size: 14px;
+    line-height: 1.14;
     color: var(--MainGreyColor);
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -59,6 +63,7 @@ body {
     color: var(--MainWhiteColor);
     font-size: 44px;
     font-weight: 900;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -68,6 +73,7 @@ body {
     color: var(--MainWhiteColor);
     font-size: 16px;
     font-weight: 700;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     background-color: var(--StudioColor);
     text-decoration: none;
@@ -79,6 +85,7 @@ body {
 .lorem-h-four {
     font-size: 14px;
     font-weight: 700;
+    line-height: 1.14;
     letter-spacing: 0.03em;
 }
 
@@ -86,6 +93,7 @@ body {
     color: var(--MainGreyColor);
     font-size: 14px;
     font-weight: 400;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -96,6 +104,7 @@ body {
 .what-we-do {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -107,11 +116,13 @@ body {
 .team-name {
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.18;
     letter-spacing: 00.03em;
 }
 .team-role {
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.18;
     letter-spacing: 00.03em;
     color: var(--MainGreyColor);
 }
@@ -125,6 +136,7 @@ body {
     font-style: normal;
     font-size: 26px;
     font-weight: 700;
+    line-height: 1.19;
     color: var(--MainWhiteColor);
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -134,16 +146,18 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 00.03em;
     color: var(--MainWhiteColor);
     text-decoration: none;
 }
 .down-section-email {
-   font-family: var(--FontDefaultRoboto);
+    font-family: var(--FontDefaultRoboto);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 00.03em;
+    line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
@@ -152,7 +166,39 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 00.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+.portfolio-button-list {
+    list-style: none;
+}
+.portfolio-button {
+    color: var(--MainBlackColor);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: var(--BacgroundLightGafitColor);
+    text-decoration: none;
+    border-radius: 4px;
+    text-transform: none;
+    text-align: center;
+}
+.portfolio-main-section {
+    list-style: none;
+}
+.portfolio-h-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.portfolio-description {
+    color: var(--MainGreyColor);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 00.03em;
 }

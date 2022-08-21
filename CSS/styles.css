@@ -25,7 +25,7 @@ body {
 }
 
 .header-logo-right {
-    font-family: var(--FontDefaultRoboto);
+    font-family: var(--FontLogoRaleway);
     font-style: normal;
     font-size: 26px;
     font-weight: 700;
@@ -108,4 +108,51 @@ body {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 00.03em;
+}
+.team-role {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 00.03em;
+    color: var(--MainGreyColor);
+}
+.down-section {
+    background-color: var(--BacgroundGafitColor);
+    text-decoration: none;
+    font-style: normal;
+}
+.header-logo-right-down {
+    font-family: var(--FontLogoRaleway);
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--MainWhiteColor);
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.down-section-adress {
+    font-family: var(--FontDefaultRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 00.03em;
+    color: var(--MainWhiteColor);
+    text-decoration: none;
+}
+.down-section-email {
+   font-family: var(--FontDefaultRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 00.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.down-section-tel {
+   font-family: var(--FontDefaultRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 00.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }

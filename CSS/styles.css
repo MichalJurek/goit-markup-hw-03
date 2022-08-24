@@ -107,14 +107,14 @@ body {
     cursor: pointer;
 }
 
-.lorem-h-four {
+.middle-section-headings {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
 
-.lorem-four {
+.middle-section-description {
     color: var(--MainGreyColor);
     font-size: 14px;
     font-weight: 400;
@@ -122,12 +122,15 @@ body {
     letter-spacing: 0.03em;
 }
 
-.lorem-list,
+.middle-section,
 .portfolio-button-list,
-.portfolio-main-section {
+.portfolio-main-section,
+.what-we-do-presentation,
+.middle-section-our-list {
     list-style: none;
 }
 
+.middle-section-our-team-heading,
 .what-we-do {
     font-weight: 700;
     font-size: 36px;
@@ -136,7 +139,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.team {
+.middle-section-our-team {
     background-color: var(--BacgroundLightGafitColor);
 }
 

@@ -50,6 +50,9 @@ body {
     color: var(--MainBlackColor);
     text-decoration: none;
 }
+.header-portfolio {
+    color: var(--StudioColor);
+}
 .header-contact:hover,:focus {
     color: var(--StudioColor);
 }

@@ -1,6 +1,6 @@
 :root {
     --StudioColor: rgba(33, 150, 243, 1);
-    --MainBlackColor: rgba(0, 0, 0, 1);
+    --MainBlackColor: rgba(33, 33, 33, 1);
     --MainWhiteColor: rgba(255, 255, 255, 1);
     --MainGreyColor: rgba(117, 117, 117, 1);
     --BacgroundGafitColor: rgba(47, 48, 58, 1);
@@ -107,14 +107,14 @@ body {
     cursor: pointer;
 }
 
-.middle-section-headings {
+.main-section-headings {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
 
-.middle-section-description {
+.main-section-description {
     color: var(--MainGreyColor);
     font-size: 14px;
     font-weight: 400;
@@ -122,15 +122,15 @@ body {
     letter-spacing: 0.03em;
 }
 
-.middle-section,
+.main-section,
 .portfolio-button-list,
 .portfolio-main-section,
 .what-we-do-presentation,
-.middle-section-our-list {
+.main-section-our-team-list {
     list-style: none;
 }
 
-.middle-section-our-team-heading,
+.main-section-our-team-heading,
 .what-we-do {
     font-weight: 700;
     font-size: 36px;
@@ -139,7 +139,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.middle-section-our-team {
+.main-section-our-team {
     background-color: var(--BacgroundLightGafitColor);
 }
 
@@ -158,7 +158,7 @@ body {
     color: var(--MainGreyColor);
 }
 
-.down-section {
+.footer {
     background-color: var(--BacgroundGafitColor);
     text-decoration: none;
     font-style: normal;
@@ -178,7 +178,7 @@ body {
     color: var(--StudioColor);
 }
 
-.down-section-adress {
+.footer-adress {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
     font-weight: 400;
@@ -189,7 +189,7 @@ body {
     text-decoration: none;
 }
 
-.down-section-email {
+.footer-email {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
     font-weight: 400;
@@ -200,10 +200,10 @@ body {
     text-decoration: none;
 }
 
-.down-section-email:hover,:focus {
+.footer-email:hover,:focus {
     color: var(--StudioColor);
 }
-.down-section-tel {
+.footer-tel {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
     font-weight: 400;
@@ -214,7 +214,7 @@ body {
     text-decoration: none;
 }
 
-.down-section-tel:hover,:focus {
+.footer-tel:hover,:focus {
     color: var(--StudioColor);
 }
 
@@ -225,6 +225,7 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     background-color: var(--BacgroundLightGafitColor);
+    border: 0;
     text-decoration: none;
     border-radius: 4px;
     text-transform: none;

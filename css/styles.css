@@ -38,9 +38,7 @@ body {
     text-decoration: none;
 }
 
-.header-agency,
-.header-portfolio,
-.header-contact {
+.header-links {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
     font-size: 14px;
@@ -50,9 +48,18 @@ body {
     color: var(--MainBlackColor);
     text-decoration: none;
 }
-.header-portfolio {
+
+.header-portfolio-StudioColor {
+    font-family: var(--FontDefaultRoboto);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02;
     color: var(--StudioColor);
+    text-decoration: none;
 }
+
 .header-contact:hover,:focus {
     color: var(--StudioColor);
 }
@@ -162,7 +169,6 @@ body {
 
 .footer {
     background-color: var(--BacgroundGafitColor);
-    text-decoration: none;
     font-style: normal;
 }
 
@@ -202,7 +208,22 @@ body {
     text-decoration: none;
 }
 
+.footer-email-portfolio-underline {
+   font-family: var(--FontDefaultRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 00.03em;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: underline 
+}
+
 .footer-email:hover,:focus {
+    color: var(--StudioColor);
+}
+
+.footer-email-portfolio-underline:hover,:focus {
     color: var(--StudioColor);
 }
 .footer-tel {

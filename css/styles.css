@@ -1,5 +1,5 @@
 :root {
-    --StudioColor: rgba(33, 150, 243, 1);
+    --StudioBlueColor: rgba(33, 150, 243, 1);
     --MainBlackColor: rgba(33, 33, 33, 1);
     --MainWhiteColor: rgba(255, 255, 255, 1);
     --MainGreyColor: rgba(117, 117, 117, 1);
@@ -22,11 +22,13 @@ body {
     font-size: 26px;
     line-height: 1.19;
     font-weight: 700;
-    color: var(--StudioColor);
+    color: var(--StudioBlueColor);
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-
+.header-logo-blue,:focus {
+    color: var(--StudioBlueColor);
+}
 .header-logo-right {
     font-family: var(--FontLogoRaleway);
     font-style: normal;
@@ -37,7 +39,9 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-
+.header-logo-right:hover,:focus {
+    color: var(--StudioBlueColor);
+}
 .header-links {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
@@ -48,34 +52,22 @@ body {
     color: var(--MainBlackColor);
     text-decoration: none;
 }
-
-.header-portfolio-StudioColor {
+.header-links:hover,:focus {
+    color: var(--StudioBlueColor);
+}
+.header-portfolio {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02;
-    color: var(--StudioColor);
+    color: var(--StudioBlueColor);
     text-decoration: none;
 }
-
-.header-contact:hover,:focus {
-    color: var(--StudioColor);
-}
-.header-agency:hover,:focus {
-    color: var(--StudioColor);
-} 
 .header-portfolio:hover,:focus {
-    color: var(--StudioColor);
+    color: var(--StudioBlueColor);
 }
-.header-logo-right:hover,:focus {
-    color: var(--StudioColor);
-}
-.header-logo-blue,:focus {
-    color: var(--StudioColor);
-}
-
 .header-links-contact {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
@@ -87,7 +79,7 @@ body {
     text-decoration: none;
 }
 .header-links-contact:hover,:focus {
-    color: var(--StudioColor);
+    color: var(--StudioBlueColor);
 }
 .main-button-place {
     background-color: var(--BacgroundGafitColor);
@@ -99,14 +91,13 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-
 .main-button {
     color: var(--MainWhiteColor);
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    background-color: var(--StudioColor);
+    background-color: var(--StudioBlueColor);
     text-decoration: none;
     border: 0;
     border-radius: 4px;
@@ -183,7 +174,7 @@ body {
     text-decoration: none;
 }
 .header-logo-right-down:hover,:focus {
-    color: var(--StudioColor);
+    color: var(--StudioBlueColor);
 }
 
 .footer-adress {
@@ -220,11 +211,11 @@ body {
 }
 
 .footer-email:hover,:focus {
-    color: var(--StudioColor);
+    color: var(--StudioBlueColor);
 }
 
 .footer-email-portfolio-underline:hover,:focus {
-    color: var(--StudioColor);
+    color: var(--StudioBlueColor);
 }
 .footer-tel {
     font-family: var(--FontDefaultRoboto);
@@ -238,7 +229,7 @@ body {
 }
 
 .footer-tel:hover,:focus {
-    color: var(--StudioColor);
+    color: var(--StudioBlueColor);
 }
 
 .portfolio-button {
@@ -258,8 +249,7 @@ body {
 }
 .portfolio-button:hover,:focus {
     color: var(--MainWhiteColor);
-    background-color: var(--StudioColor);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    background-color: var(--StudioBlueColor);
 }
 
 .portfolio-h-title {

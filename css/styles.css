@@ -5,6 +5,7 @@
     --MainGreyColor: rgba(117, 117, 117, 1);
     --BacgroundGafitColor: rgba(47, 48, 58, 1);
     --BacgroundLightGafitColor: rgba(245, 244, 250, 1);
+    --BorderLine: #ECECEC;
     --FontLogoRaleway: font-family: "Raleway", sans-serif;
     --FontDefaultRoboto: font-family: "Roboto", sans-serif;
 }
@@ -15,7 +16,17 @@ body {
     color: var(--MainBlackColor);
     list-style: none;
 }
-
+.header {
+    margin: 0;
+    width: 1600px;
+    height: 80px;
+    border-bottom: 1px solid var(--BorderLine);
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
 .header-logo-blue {
     font-family: var(--FontLogoRaleway);
     font-style: normal;
@@ -90,6 +101,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    width: 1600px;
+    height: 600px;
 }
 .main-button {
     color: var(--MainWhiteColor);

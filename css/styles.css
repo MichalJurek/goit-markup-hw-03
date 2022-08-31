@@ -26,6 +26,7 @@ body {
 }
 .header {
     align-items: center;
+    width: 100%;
 }
 .header-logo-blue {
     font-family: var(--FontLogoRaleway);
@@ -67,7 +68,6 @@ body {
     text-decoration: none;
     margin-top: 32px;
     margin-bottom: 32px;
-    margin-left: 99px;
 }
 .header-links:hover,
 .header-links:focus {
@@ -97,7 +97,6 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     margin-top: 24px;
-    margin-left: 371px;
     margin-bottom: 25px;
 }
 .header-links-contact:hover,

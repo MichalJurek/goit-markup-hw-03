@@ -20,22 +20,18 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-.flex-dir-row {
-    display: flex;
-    flex-direction: row;
-}
 .page-header {
     box-sizing: border-box;
     display: flex;
-    width: 100%;
     border-bottom: solid 1px #ECECEC;
-    flex-direction: row;
 }
 .logo-container {
     display: flex;
     padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 15px;
+    padding-bottom: 0px;
+    padding-left: 161.25px; /* =215*0,75 */ 
+    margin: 0;
+    border: 0;
 }
 .header-logo-blue {
     font-family: var(--FontLogoRaleway);
@@ -46,12 +42,9 @@ body {
     color: var(--StudioBlueColor);
     letter-spacing: 0.03em;
     text-decoration: none;
-}
-.header-links-container {
-    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
 }
+
 .header-logo-right {
     font-family: var(--FontLogoRaleway);
     font-style: normal;
@@ -61,11 +54,17 @@ body {
     color: var(--MainBlackColor);
     letter-spacing: 0.03em;
     text-decoration: none;
-    
 }
 .header-logo-right:hover,
 .header-logo-right:focus {
     color: var(--StudioBlueColor);
+}
+.header-links-container {
+    display: flex;
+    margin: 0;
+    border: 0;
+    padding: 32px 0px 32px 69.75px; /* =(453-215-145)=93x0,75 */
+    gap: 46px  /* obliczenia odległości między elemntami: lewo=(552-433-53)=46x0,75 | prawo=(656-552-58)=46x0,75 */
 }
 .header-links {
     font-family: var(--FontDefaultRoboto);
@@ -81,6 +80,17 @@ body {
 .header-links:focus {
     color: var(--StudioBlueColor);
 }
+
+.header-links-contact-container {
+    display: flex;
+    margin: 0;
+    border: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 278.25px;
+    gap: 37.5px; /* =(1263-1078-135)=50x0,75 */
+
+}
 .header-portfolio {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
@@ -94,6 +104,9 @@ body {
 .header-portfolio:hover,
 .header-portfolio:focus {
     color: var(--StudioBlueColor);
+}
+.header-links-contact-container {
+    display: flex;
 }
 .header-links-contact {
     font-family: var(--FontDefaultRoboto);

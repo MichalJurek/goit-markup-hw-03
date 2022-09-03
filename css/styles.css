@@ -42,7 +42,6 @@ body {
     color: var(--StudioBlueColor);
     letter-spacing: 0.03em;
     text-decoration: none;
-    display: flex;
 }
 
 .header-logo-right {

@@ -87,7 +87,7 @@ body {
     border: 0;
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 278.25px;
+    padding-left: 278.25px; /*1078-656-51= 371x0,75 */
     gap: 37.5px; /* =(1263-1078-135)=50x0,75 */
 
 }

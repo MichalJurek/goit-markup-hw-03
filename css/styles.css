@@ -15,10 +15,10 @@ body {
     color: var(--MainBlackColor);
     list-style: none;
 }
-
 .container {
     width: 1200px;
     margin: 0 auto;
+    border: 0 auto;
 }
 .page-header {
     box-sizing: border-box;
@@ -131,15 +131,12 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     display: flex;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    padding: 200px 0;
-    display: flex;
-    gap: 150px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 200px;
+    padding-bottom: 280px;
+
 }
 .main-button {
     color: var(--MainWhiteColor);
@@ -202,7 +199,15 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
-
+.what-we-do {
+    align-items: center;
+    padding-bottom: 50px;
+}
+.what-we-do-presentation {
+    display: flex;
+    padding-bottom: 94px;
+    gap: 22.5px;
+}
 .main-section-our-team {
     background-color: var(--BacgroundLightGafitColor);
 }

@@ -32,12 +32,15 @@
     </div>
   </header>
   <main>
-    <section class="main-button-place container">
+    <section class="max-width">
+      <div class="main-button-place container">
       <h1>EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU</h1>
       <button class="main-button" type="button">Zamów usługe</button>
+    </div>
     </section>
     <section>
-      <ul class="main-section container">
+      <div class="container">
+      <ul class="main-section">
         <li>
           <div>
             <h4 class="main-section-headings">LOREM IPSUM</h4>
@@ -75,6 +78,7 @@
           </div>
         </li>
       </ul>
+      </div>
     </section>
     <section class="container">
       <h3 class="what-we-do">Czym się zajmujemy</h3>
@@ -91,41 +95,63 @@
         </li>
       </ul>
     </section>
-    <section class="main-section-our-team container">
+    <section class="main-section-our-team">
+      <div class="container">
       <h3 class="main-section-our-team-heading">Nasz zespół</h3>
       <ul class="main-section-our-team-list">
-        <li>
+        <li class="our-team-member-figure">
+          <figure class="no-margin">
           <img src="./images/productdesigner.jpg" width="270" height="260" alt="personal photo of product designer" />
+          <figcaption>
           <h3 class="team-name">John Doe</h3>
           <p class="team-role">Product Designer</p>
+          </figcaption>  
+        </figure>
         </li>
-        <li>
+        <li class="our-team-member-figure">
+          <figure class="no-margin">
           <img src="./images/frontenddeveloper.jpg" width="270" height="260"
             alt="personal photo of Fronted Developer" />
-          <h3 class="team-name">John Doe</h3>
+          <figcaption>
+            <h3 class="team-name">John Doe</h3>
           <p class="team-role">Frontend Developer</p>
+        </figcaption>
+        </figure>
         </li>
-        <li>
+        <li class="our-team-member-figure">
+          <figure class="no-margin">
           <img src="./images/marketing.jpg" width="270" height="260" alt="personal photo of Marketing role person" />
+          <figcaption>
           <h3 class="team-name">John Doe</h3>
           <p class="team-role">Marketing</p>
+        </figcaption>
+        </figure>
         </li>
-        <li>
+        <li class="our-team-member-figure">
+          <figure class="no-margin">
           <img src="./images/uidesigner.jpg" width="270" height="260" alt="personal photo of UI designer" />
+          <figcaption>
           <h3 class="team-name">John Doe</h3>
           <p class="team-role">UI Designer</p>
+          </figcaption>
+        </figure>
         </li>
       </ul>
+      </div>
     </section>
   </main>
-  <footer class="footer container">
+  <footer class="footer">
+    <div class="container">
     <a class="header-logo-blue" href="./index.html"><span>Web</span><span
         class="header-logo-right-down">Studio</span></a>
-    <address class="footer">
-      <p class="footer-adress">m. Warszawa, Aleje Jerozolimskie 21</p>
-      <a class="footer-email" href="mailto:info@example.com">info@example.com</a>
-      <a class="footer-tel" href="tel:48111111111">+48 111 111 111</a>
+    <address>
+      <ul class="footer-list">
+      <li class="footer-adress">m. Warszawa, Aleje Jerozolimskie 21</li>
+      <li><a class="footer-email" href="mailto:info@example.com">info@example.com</a></li>
+      <li><a class="footer-tel" href="tel:48111111111">+48 111 111 111</a></li>
+    </ul>
     </address>
+  </div>
   </footer>
 </body>
 

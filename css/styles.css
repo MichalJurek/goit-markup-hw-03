@@ -16,13 +16,17 @@ body {
     list-style: none;
 }
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    border: 0 auto;
+    max-width: 1200px;
+    margin: 0;
+    border: 0;
+}
+.max-width { 
+    max-width: 100%;
 }
 .page-header {
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
     border-bottom: solid 1px #ECECEC;
 }
 .logo-container {
@@ -165,6 +169,7 @@ body {
     gap: 22.5px;
     border: 0 auto;
     margin: 0 auto;
+    justify-content: center;
 }
 .main-section-headings {
     font-size: 14px;
@@ -172,7 +177,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     display: flex;
-    padding-bottom: 10px;
+
 }
 .main-section-description {
     color: var(--MainGreyColor);
@@ -180,7 +185,6 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    padding-bottom: 94px;
 }
 
 .main-section,
@@ -190,28 +194,54 @@ body {
 .main-section-our-team-list {
     list-style: none;
 }
-
+.main-section-our-team {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    background-color: var(--BacgroundLightGafitColor);
+}
 .main-section-our-team-heading,
 .what-we-do {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
     letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 94px;
+    margin: 0 auto;
+}
+.main-section-our-team-list {
+    display: flex;
+    gap: 22.5px;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 94px;
+}
+.our-team-member-figure {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: var(--MainWhiteColor);
+    width: 270px;
+    height: 368px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-align: center;
+    align-items: start;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .what-we-do {
-    align-items: center;
-    padding-bottom: 50px;
+    text-align: center;
+    margin: 0 auto;
 }
 .what-we-do-presentation {
     display: flex;
-    padding-bottom: 94px;
+    justify-content: center;
     gap: 22.5px;
+    padding-bottom: 94px;
 }
-.main-section-our-team {
-    background-color: var(--BacgroundLightGafitColor);
-}
-
 .team-name {
     font-size: 16px;
     font-weight: 500;
@@ -226,10 +256,24 @@ body {
     letter-spacing: 00.03em;
     color: var(--MainGreyColor);
 }
+.no-margin {
+    margin: 0px auto;
+}
 
 .footer {
+    display: flex;
     background-color: var(--BacgroundGafitColor);
     font-style: normal;
+    padding: 60px 0 60px 161.25px;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    border: 0;
+    padding-left: 0;
+    gap: 9px;
 }
 
 .header-logo-right-down {
@@ -256,6 +300,7 @@ body {
     letter-spacing: 00.03em;
     color: var(--MainWhiteColor);
     text-decoration: none;
+    padding-top: 20px;
 }
 
 .footer-email {

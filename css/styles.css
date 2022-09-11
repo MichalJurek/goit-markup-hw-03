@@ -17,25 +17,25 @@ body {
 }
 .container {
     max-width: 1200px;
-    margin: 0;
-    border: 0;
+    width: 100%;
+    margin: 0 auto;
+    border: 0 auto;
 }
-.max-width { 
-    max-width: 100%;
+.class1 {
+    display: flex;
+    justify-content: space-between;
 }
 .page-header {
     box-sizing: border-box;
     display: flex;
+    height: 80px;
+    max-height: 100%;
     justify-content: center;
     border-bottom: solid 1px #ECECEC;
 }
 .logo-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 0px;
-    padding-left: 161.25px; /* =215*0,75 */ 
-    margin: 0;
-    border: 0;
+    align-items: center;
 }
 .header-logo-blue {
     font-family: var(--FontLogoRaleway);
@@ -64,10 +64,12 @@ body {
 }
 .header-links-container {
     display: flex;
+    align-items: center;
+    height: 80px;
+    max-height: 100%;
     margin: 0;
     border: 0;
-    padding: 32px 0px 32px 69.75px; /* =(453-215-145)=93x0,75 */
-    gap: 46px  /* obliczenia odległości między elemntami: lewo=(552-433-53)=46x0,75 | prawo=(656-552-58)=46x0,75 */
+    gap: 46px
 }
 .header-links {
     font-family: var(--FontDefaultRoboto);
@@ -88,11 +90,8 @@ body {
     display: flex;
     margin: 0;
     border: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 278.25px; /*1078-656-51= 371x0,75 */
-    gap: 37.5px; /* =(1263-1078-135)=50x0,75 */
-
+    gap: 50px;
+    align-items: center;
 }
 .header-portfolio {
     font-family: var(--FontDefaultRoboto);
@@ -136,11 +135,10 @@ body {
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-top: 200px;
-    padding-bottom: 280px;
-
+    justify-content: center;
+    height: 600px;
+    max-height: 100%;
 }
 .main-button {
     color: var(--MainWhiteColor);
@@ -161,22 +159,32 @@ body {
 .main-button:focus {
     color: var(--StudioBlueColor);
 }
+.class2 {
+    margin: 0 auto;
+}
+.class3 {
+    display: flex;
+    flex-direction: column;
+    height: 769px;
+    max-height: 100%;
+    justify-content: center;
+    gap: 94px;
+}
 .main-section {
     display: flex;
-    padding-top: 94px;
-    padding-left: 161.25px;
-    padding-right: 161.25px;
-    gap: 22.5px;
-    border: 0 auto;
+    align-items: center;
     margin: 0 auto;
-    justify-content: center;
+    border: 0 auto;
+    padding-left: 0px;
+    gap: 30px;
 }
 .main-section-headings {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    display: flex;
+    margin: 0 auto;
+    border: 0 auto;
 
 }
 .main-section-description {
@@ -197,10 +205,27 @@ body {
 
 .main-section-our-team {
     display: flex;
-    margin: 0 auto;
-    width: 100%;
+    flex-direction: column;
     background-color: var(--BacgroundLightGafitColor);
+    height: 648px;
+    max-height: 100%;
     justify-content: center;
+}
+.gap50 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.what-we-do {
+    text-align: center;
+    margin: 0 auto;
+}
+.what-we-do-presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
 .main-section-our-team-heading,
 .what-we-do {
@@ -209,46 +234,40 @@ body {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
-    padding-bottom: 50px;
-    padding-top: 94px;
     margin: 0 auto;
 }
 .main-section-our-team-list {
     display: flex;
-    gap: 22.5px;
-    justify-content: center;
     margin: 0 auto;
-    padding-bottom: 94px;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
 }
 .our-team-member-figure {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    flex-direction: column;
+    margin: 0;
     background-color: var(--MainWhiteColor);
-    width: 270px;
-    height: 368px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
-    text-align: center;
-    align-items: start;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.what-we-do {
-    text-align: center;
-    margin: 0 auto;
-}
-.what-we-do-presentation {
+.class5 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 22.5px;
-    padding-bottom: 94px;
+    gap: 10px;
+    height: 105px;
+    max-height: 100%;
 }
 .team-name {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 00.03em;
+    margin: 0;
 }
 
 .team-role {
@@ -257,16 +276,26 @@ body {
     line-height: 1.18;
     letter-spacing: 00.03em;
     color: var(--MainGreyColor);
+    margin: 0;
 }
 .no-margin {
     margin: 0px auto;
 }
-
 .footer {
-    display: flex;
     background-color: var(--BacgroundGafitColor);
     font-style: normal;
-    padding: 60px 0 60px 161.25px;
+    height: 252px;
+    display: flex;
+    align-items: center;
+}
+.gap20 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.class4 {
+    display: flex;
+
 }
 .footer-list {
     display: flex;
@@ -275,9 +304,9 @@ body {
     margin: 0;
     border: 0;
     padding-left: 0;
-    gap: 9px;
+    justify-content: space-between;
+    
 }
-
 .header-logo-right-down {
     font-family: var(--FontLogoRaleway);
     font-style: normal;
@@ -302,7 +331,6 @@ body {
     letter-spacing: 00.03em;
     color: var(--MainWhiteColor);
     text-decoration: none;
-    padding-top: 20px;
 }
 
 .footer-email {

@@ -305,7 +305,6 @@ text-transform: uppercase;
 }
 .class4 {
     display: flex;
-
 }
 .footer-list {
     display: flex;
@@ -414,6 +413,7 @@ text-transform: uppercase;
     text-transform: none;
     text-align: center;
     cursor: pointer;
+    padding: 6px 20px 6px 20px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {

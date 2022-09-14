@@ -18,12 +18,13 @@ body {
 .container {
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
-    border: 0 auto;
+    margin: 0;
+    border: 0;
 }
 .class1 {
     display: flex;
     gap: 93px;
+    margin: 0;
 }
 .class6 {
     display: flex;

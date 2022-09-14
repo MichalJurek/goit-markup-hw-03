@@ -225,6 +225,13 @@ text-transform: uppercase;
     flex-direction: column;
     gap: 50px;
 }
+.gap502 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 1548px;
+}
 .what-we-do {
     text-align: center;
     margin: 0 auto;
@@ -391,13 +398,10 @@ text-transform: uppercase;
 .portfolio-button-list{
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    border: 0 auto;
-    gap: 6px; /* = 8 x 0,75 */
-    padding: 94px 388.5px 50px 382.5px;
-    /* padding-top: 94px;
-    padding-right: 388.5px; = 518 x 0,75
-    padding-left: 382.5px; = 510 x 0,75 */
+    margin: 0;
+    border: 0;
+    padding: 0;
+    gap: 8px;
 }
 .portfolio-button {
     color: var(--MainBlackColor);
@@ -423,45 +427,44 @@ text-transform: uppercase;
 }
 .portfolio-main-section{
     display: flex;
-    height: 100%;
-    max-width: 100%;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
     gap: 30px;
-
 }
 .portfolio-elements {
-    flex-basis: calc((100% - 2 * 30px) / 3);
-    background-color: var(--MainWhiteColor)
+    display: flex;
+    flex-direction: column;
+    background-color: var(--MainWhiteColor);
 }
 
 .portfolio-h-title {
-    display: flex;
-    flex-direction: row;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 4px;
-    margin: 0 auto;
+    margin: 0 0 0 24px;
 }
 
 .portfolio-description {
-    display: flex;
-    flex-direction: row;
     color: var(--MainGreyColor);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 00.03em;
-    justify-content: center;
-    padding-bottom: 20px;
-    margin: 0 auto;
+    margin: 0 0 0 24px;
 }
-.portfolio-element-border{
-    
+.portfolio-element-border {
+    display: flex;
+    flex-direction: column;
     border-right: solid 1px rgba(238, 238, 238, 1);
     border-bottom: solid 1px rgba(238, 238, 238, 1);
     border-left: solid 1px rgba(238, 238, 238, 1);
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 370px;
+    height: 101px;
+    gap: 4px;
 }

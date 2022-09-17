@@ -169,6 +169,11 @@ text-transform: uppercase;
 .main-button:focus {
     color: var(--StudioBlueColor);
 }
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .class2 {
     margin: 0 auto;
 }
@@ -220,6 +225,7 @@ text-transform: uppercase;
     height: 648px;
     max-height: 100%;
     justify-content: center;
+    align-items: center;
 }
 .gap50 {
     display: flex;
@@ -305,6 +311,7 @@ text-transform: uppercase;
     align-items: center;
     padding-top: 60px;
     padding-bottom: 60px;
+    justify-content: center;
 }
 .gap20 {
     display: flex;

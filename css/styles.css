@@ -15,21 +15,25 @@ body {
     color: var(--MainBlackColor);
     list-style: none;
 }
+
 .container {
     max-width: 1200px;
     width: 100%;
     margin: 0;
     border: 0;
 }
+
 .freespace-in-centrum-menu {
     display: flex;
     margin: 0;
     justify-content: space-between;
 }
-.logo-headerlinks-container{
+
+.logo-headerlinks-container {
     display: flex;
     gap: 93px;
 }
+
 .page-header {
     box-sizing: border-box;
     display: flex;
@@ -39,10 +43,12 @@ body {
     max-height: 100%;
     border-bottom: solid 1px #ECECEC;
 }
+
 .logo-container {
     display: flex;
     align-items: center;
 }
+
 .header-logo-blue {
     font-family: var(--FontLogoRaleway);
     font-style: normal;
@@ -64,10 +70,12 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
 }
+
 .header-logo-right:hover,
 .header-logo-right:focus {
     color: var(--StudioBlueColor);
 }
+
 .header-links-container {
     display: flex;
     align-items: center;
@@ -77,6 +85,7 @@ body {
     border: 0;
     gap: 46px
 }
+
 .header-links {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
@@ -87,6 +96,7 @@ body {
     color: var(--MainBlackColor);
     text-decoration: none;
 }
+
 .header-links:hover,
 .header-links:focus {
     color: var(--StudioBlueColor);
@@ -99,6 +109,7 @@ body {
     gap: 50px;
     align-items: center;
 }
+
 .header-portfolio {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
@@ -109,13 +120,16 @@ body {
     color: var(--StudioBlueColor);
     text-decoration: none;
 }
+
 .header-portfolio:hover,
 .header-portfolio:focus {
     color: var(--StudioBlueColor);
 }
+
 .header-links-contact-container {
     display: flex;
 }
+
 .header-links-contact {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
@@ -126,10 +140,12 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
 .header-links-contact:hover,
 .header-links-contact:focus {
     color: var(--StudioBlueColor);
 }
+
 .main-button-place {
     background-color: var(--BacgroundGafitColor);
     display: flex;
@@ -140,16 +156,18 @@ body {
     max-height: 100%;
     margin: 0;
 }
+
 h1 {
-color: var(--MainWhiteColor);
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+    color: var(--MainWhiteColor);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
+
 .main-button {
     color: var(--MainBlackColor);
     font-size: 16px;
@@ -167,16 +185,19 @@ text-transform: uppercase;
     text-transform: none;
     cursor: pointer;
 }
+
 .main-button:hover,
 .main-button:focus {
     color: var(--MainWhiteColor);
     background-color: var(--StudioBlueColor);
 }
+
 .align-items-center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .index-main-section {
     display: flex;
     flex-direction: column;
@@ -185,6 +206,7 @@ text-transform: uppercase;
     justify-content: center;
     gap: 94px;
 }
+
 .main-section {
     display: flex;
     align-items: center;
@@ -193,6 +215,7 @@ text-transform: uppercase;
     padding-left: 0px;
     gap: 30px;
 }
+
 .main-section-headings {
     font-size: 14px;
     font-weight: 700;
@@ -202,6 +225,7 @@ text-transform: uppercase;
     border: 0 auto;
 
 }
+
 .main-section-description {
     color: var(--MainGreyColor);
     font-size: 14px;
@@ -227,11 +251,13 @@ text-transform: uppercase;
     justify-content: center;
     align-items: center;
 }
+
 .gap-50-px {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
+
 .gap-50-px-second {
     display: flex;
     flex-direction: column;
@@ -240,10 +266,12 @@ text-transform: uppercase;
     height: 1548px;
     margin: 0;
 }
+
 .what-we-do {
     text-align: center;
     margin: 0 auto;
 }
+
 .what-we-do-presentation {
     display: flex;
     align-items: center;
@@ -251,6 +279,7 @@ text-transform: uppercase;
     padding: 0;
     margin: 0;
 }
+
 .main-section-our-team-heading,
 .what-we-do {
     font-weight: 700;
@@ -260,6 +289,7 @@ text-transform: uppercase;
     text-align: center;
     margin: 0 auto;
 }
+
 .main-section-our-team-list {
     display: flex;
     margin: 0 auto;
@@ -267,6 +297,7 @@ text-transform: uppercase;
     padding: 0;
     justify-content: space-between;
 }
+
 .our-team-member-figure {
     display: flex;
     flex-direction: column;
@@ -275,8 +306,9 @@ text-transform: uppercase;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+        0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
 .class5 {
     display: flex;
     flex-direction: column;
@@ -286,6 +318,7 @@ text-transform: uppercase;
     height: 105px;
     max-height: 100%;
 }
+
 .team-name {
     font-size: 16px;
     font-weight: 500;
@@ -302,9 +335,11 @@ text-transform: uppercase;
     color: var(--MainGreyColor);
     margin: 0;
 }
+
 .no-margin {
     margin: 0px auto;
 }
+
 .footer {
     background-color: var(--BacgroundGafitColor);
     font-style: normal;
@@ -314,6 +349,7 @@ text-transform: uppercase;
     padding-bottom: 60px;
     justify-content: center;
 }
+
 .gap-20-px {
     display: flex;
     flex-direction: column;
@@ -328,8 +364,9 @@ text-transform: uppercase;
     border: 0;
     padding-left: 0;
     justify-content: space-between;
-    
+
 }
+
 .header-logo-right-down {
     font-family: var(--FontLogoRaleway);
     font-style: normal;
@@ -340,6 +377,7 @@ text-transform: uppercase;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
+
 .header-logo-right-down:hover,
 .header-logo-right-down:focus {
     color: var(--StudioBlueColor);
@@ -373,20 +411,21 @@ text-transform: uppercase;
 }
 
 .footer-email-portfolio-underline {
-   font-family: var(--FontDefaultRoboto);
+    font-family: var(--FontDefaultRoboto);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 00.03em;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: underline 
+    text-decoration: underline
 }
 
 .footer-email-portfolio-underline:hover,
 .footer-email-portfolio-underline:focus {
     color: var(--StudioBlueColor);
 }
+
 .footer-tel {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
@@ -402,11 +441,13 @@ text-transform: uppercase;
 .footer-tel:focus {
     color: var(--StudioBlueColor);
 }
+
 .height-portfolio {
     height: 1548px;
     justify-content: center;
 }
-.portfolio-button-list{
+
+.portfolio-button-list {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -414,6 +455,7 @@ text-transform: uppercase;
     padding: 0;
     gap: 8px;
 }
+
 .portfolio-button {
     color: var(--MainBlackColor);
     font-size: 16px;
@@ -430,13 +472,15 @@ text-transform: uppercase;
     cursor: pointer;
     padding: 6px 20px 6px 20px;
 }
+
 .portfolio-button:hover,
 .portfolio-button:focus {
     color: var(--MainWhiteColor);
     background-color: var(--StudioBlueColor);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.portfolio-main-section{
+
+.portfolio-main-section {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
@@ -446,6 +490,7 @@ text-transform: uppercase;
     gap: 30px;
     column-gap: 30px;
 }
+
 .portfolio-elements {
     display: flex;
     flex-direction: column;
@@ -455,6 +500,7 @@ text-transform: uppercase;
     background-color: var(--MainWhiteColor);
     flex-basis: calc((100%-2*30px)/3);
 }
+
 .portfolio-h-title {
     font-weight: 700;
     font-size: 18px;
@@ -471,6 +517,7 @@ text-transform: uppercase;
     letter-spacing: 00.03em;
     margin: 0 0 0 24px;
 }
+
 .portfolio-element-border {
     display: flex;
     flex-direction: column;

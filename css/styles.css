@@ -21,10 +21,14 @@ body {
     margin: 0;
     border: 0;
 }
-.class1 {
+.gap-in-centrum-menu {
+    display: flex;
+    gap: 364px;
+    margin: 0;
+}
+.logo-headerlinks-container{
     display: flex;
     gap: 93px;
-    margin: 0;
 }
 .class6 {
     display: flex;
@@ -33,6 +37,8 @@ body {
 .page-header {
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 80px;
     max-height: 100%;
     border-bottom: solid 1px #ECECEC;
@@ -149,12 +155,12 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 .main-button {
-    color: var(--MainWhiteColor);
+    color: var(--MainBlackColor);
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    background-color: var(--StudioBlueColor);
+    background-color: var(--BacgroundLightGafitColor);
     text-decoration: none;
     width: 200px;
     height: 50px;
@@ -167,17 +173,15 @@ text-transform: uppercase;
 }
 .main-button:hover,
 .main-button:focus {
-    color: var(--StudioBlueColor);
+    color: var(--MainWhiteColor);
+    background-color: var(--StudioBlueColor);
 }
-.center {
+.align-items-center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.class2 {
-    margin: 0 auto;
-}
-.class3 {
+.index-main-section {
     display: flex;
     flex-direction: column;
     height: 769px;
@@ -227,7 +231,7 @@ text-transform: uppercase;
     justify-content: center;
     align-items: center;
 }
-.gap50 {
+.gap-50-px {
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -313,14 +317,12 @@ text-transform: uppercase;
     padding-bottom: 60px;
     justify-content: center;
 }
-.gap20 {
+.gap-20-px {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.class4 {
-    display: flex;
-}
+
 .footer-list {
     display: flex;
     flex-direction: column;
